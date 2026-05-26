@@ -1,6 +1,6 @@
 name: myFirstWorkflow
 # to get a trigger on every push in the repo in my branch
-on: push
+on: [push, workflow_dispatch]
 
 jobs:
   job1:
